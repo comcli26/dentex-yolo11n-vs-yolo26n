@@ -1,0 +1,8 @@
+ultralytics==8.4.118
+numpy
+pandas
+matplotlib
+scikit-learn
+opencv-python
+pillow
+tqdm
