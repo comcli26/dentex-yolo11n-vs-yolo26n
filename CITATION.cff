@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+message: "Si usa este material, cítelo como se indica a continuación."
+title: "dentex-yolo11n-vs-yolo26n"
+version: 1.0.0
+date-released: 2026-10-XX
+authors:
+  - family-names: "Muñoz Vélez"
+    given-names: "Gustavo Enrique"
+    orcid: "https://orcid.org/0009-0004-0316-3005"
+  - family-names: "Jimbo Ortiz"
+    given-names: "Jordy German"
+    orcid: "https://orcid.org/0009-0008-1959-1839"
+  - family-names: "Rivas Asanza"
+    given-names: "Wilmer Braulio"
+    orcid: "https://orcid.org/0000-0002-2239-3664"
+  - family-names: "Tusa Jumbo"
+    given-names: "Eduardo Alejandro"
+    orcid: "https://orcid.org/0000-0002-9408-5134"
+  - family-names: "Celleri Pacheco"
+    given-names: "Jennifer Katherin"
+    orcid: "https://orcid.org/0000-0001-7041-8777"
+license: AGPL-3.0
+repository-code: "https://github.com/<USUARIO>/dentex-yolo11n-vs-yolo26n"
+keywords: [deep learning, panoramic radiography, object detection, periapical lesion, impacted tooth, YOLO11, YOLO26]
