@@ -1,0 +1,7 @@
+{
+  "epochs_completed": 100,
+  "best_epoch": 70,
+  "train_minutes_this_session": 32.7,
+  "gpu": "Tesla T4",
+  "note": "Los minutos solo cuentan esta sesi\u00f3n (si hubo reanudaci\u00f3n, no son el total)."
+}

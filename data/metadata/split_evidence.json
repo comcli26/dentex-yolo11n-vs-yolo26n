@@ -1,0 +1,18 @@
+{
+  "data_yaml_sha256": "1621825915e761895e379b67ec63ed25f6c75e4e608b5d29a64db75d73a625b1",
+  "split_list_sha256": {
+    "train": "5c2f945aea48c55fa4db3a14d1e6e5053598ba5ded4587c0200c02334dbe3d36",
+    "val": "d79395131d954e0879e73ba3dfb06f4b33ae582febe20154591d579c31f9446c",
+    "test": "9a8f58210b497e25b9198e6070890c2a9292f2e86ea3635645eb54a585f499a1"
+  },
+  "models": {
+    "yolo11n": {
+      "data": "data.yaml",
+      "seed": 42
+    },
+    "yolo26n": {
+      "data": "data.yaml",
+      "seed": 42
+    }
+  }
+}

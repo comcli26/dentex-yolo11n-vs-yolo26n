@@ -1,0 +1,110 @@
+{
+  "model": "yolo11n",
+  "weights_init": "yolo11n.pt",
+  "train_seed": 42,
+  "versions": {
+    "python": "3.13.15",
+    "ultralytics": "8.4.118",
+    "torch": "2.11.0+cu130",
+    "cuda": "13.0",
+    "gpu": "Tesla T4"
+  },
+  "protocol_hash": "22fbafd193da7772e49e7a7f171a1264d03484fd0c3de4f432ad2902fae08324",
+  "train_args": {
+    "data": "/content/dentex_yolo/data.yaml",
+    "epochs": 150,
+    "patience": 30,
+    "imgsz": 1024,
+    "batch": 16,
+    "optimizer": "AdamW",
+    "lr0": 0.001,
+    "lrf": 0.01,
+    "momentum": 0.937,
+    "weight_decay": 0.0005,
+    "cos_lr": true,
+    "pretrained": true,
+    "seed": 42,
+    "deterministic": true,
+    "mosaic": 1.0,
+    "close_mosaic": 15,
+    "mixup": 0.0,
+    "fliplr": 0.5,
+    "flipud": 0.0,
+    "hsv_h": 0.015,
+    "hsv_s": 0.7,
+    "hsv_v": 0.4,
+    "degrees": 0.0,
+    "translate": 0.1,
+    "scale": 0.5,
+    "shear": 0.0,
+    "cache": "ram",
+    "workers": 4,
+    "amp": true,
+    "plots": true,
+    "val": true,
+    "exist_ok": true
+  },
+  "dataset": {
+    "data_yaml_sha256": "1621825915e761895e379b67ec63ed25f6c75e4e608b5d29a64db75d73a625b1",
+    "split_list_sha256": {
+      "train": "5c2f945aea48c55fa4db3a14d1e6e5053598ba5ded4587c0200c02334dbe3d36",
+      "val": "d79395131d954e0879e73ba3dfb06f4b33ae582febe20154591d579c31f9446c",
+      "test": "9a8f58210b497e25b9198e6070890c2a9292f2e86ea3635645eb54a585f499a1"
+    },
+    "fingerprint": "135b5931ce984659dd046d2fc50774fa87eb6c6cbb018896bfbd3f127026a51b",
+    "counts": {
+      "train": {
+        "images": 493,
+        "negativas": 265,
+        "perio": 107,
+        "imp": 428
+      },
+      "val": {
+        "images": 106,
+        "negativas": 57,
+        "perio": 24,
+        "imp": 83
+      },
+      "test": {
+        "images": 106,
+        "negativas": 57,
+        "perio": 27,
+        "imp": 93
+      }
+    }
+  },
+  "training": {
+    "epochs_completed": 100,
+    "best_epoch": 70,
+    "train_minutes_this_session": 32.7,
+    "gpu": "Tesla T4",
+    "note": "Los minutos solo cuentan esta sesi\u00f3n (si hubo reanudaci\u00f3n, no son el total)."
+  },
+  "val": {
+    "split": "val",
+    "precision": 0.8773555774497548,
+    "recall": 0.561495983935743,
+    "f1": 0.6847567135375037,
+    "mAP50": 0.6550170151308168,
+    "mAP50_95": 0.39962199685721517
+  },
+  "test": {
+    "split": "test",
+    "precision": 0.6611111079472843,
+    "recall": 0.5642485367597381,
+    "f1": 0.6088514125724287,
+    "mAP50": 0.5768540664589097,
+    "mAP50_95": 0.3492953238322695
+  },
+  "complexity": {
+    "parametros": 2590230,
+    "gflops_a_imgsz": 16.887054336,
+    "imgsz_gflops": 1024,
+    "tamano_best_pt_MB": 5.51
+  },
+  "paths": {
+    "run_dir": "/content/drive/MyDrive/UNIVERSIDAD/10MO SEMESTRE/ARTICULO II/MODELOS/YOLO11/yolo11n_seed42",
+    "best": "/content/drive/MyDrive/UNIVERSIDAD/10MO SEMESTRE/ARTICULO II/MODELOS/YOLO11/yolo11n_seed42/weights/best.pt"
+  },
+  "created": "2026-10-08T01:01:01.593746"
+}

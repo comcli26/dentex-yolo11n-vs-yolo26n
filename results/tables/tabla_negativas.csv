@@ -1,0 +1,3 @@
+modelo,imagenes_negativas,con_algun_FP,fraccion_con_FP [IC95],FP_medios_por_imagen
+YOLO11n,57,5,0.088 [0.018–0.158],0.14
+YOLO26n,57,4,0.070 [0.018–0.140],0.123

@@ -1,0 +1,7 @@
+,,pred_perio,pred_impact,pred_fondo
+YOLO11n,real_perio,7,1,19
+YOLO11n,real_impact,0,67,26
+YOLO11n,real_fondo,6,7,0
+YOLO26n,real_perio,4,1,22
+YOLO26n,real_impact,0,72,21
+YOLO26n,real_fondo,4,19,0

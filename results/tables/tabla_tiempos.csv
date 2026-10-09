@@ -1,0 +1,5 @@
+,preprocess,preprocess,preprocess,inference,inference,inference,postprocess,postprocess,postprocess,total_ms,total_ms,total_ms
+,mean,median,std,mean,median,std,mean,median,std,mean,median,std
+modelo,,,,,,,,,,,,
+YOLO11n,4.414,4.089,0.93,9.094,8.227,2.233,0.856,0.693,0.37,14.365,13.119,3.192
+YOLO26n,4.092,4.0,0.502,9.916,9.663,1.265,0.344,0.337,0.072,14.351,14.018,1.639

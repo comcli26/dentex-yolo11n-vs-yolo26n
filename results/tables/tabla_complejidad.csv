@@ -1,0 +1,3 @@
+modelo,params_sin_fusionar,GFLOPs_sin_fusionar,params_fusionado,GFLOPs_fusionado,tamano_best_pt_MB,imgsz
+YOLO11n,2590230,16.89,2582542,16.56,5.51,1024
+YOLO26n,2504580,15.58,2375226,14.09,5.42,1024

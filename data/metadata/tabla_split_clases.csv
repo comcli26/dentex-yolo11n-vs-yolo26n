@@ -1,0 +1,4 @@
+split,imagenes,imagenes_negativas,inst_periapical,inst_impactado
+train,493,265,107,428
+val,106,57,24,83
+test,106,57,27,93

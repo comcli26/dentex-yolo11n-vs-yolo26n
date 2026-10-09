@@ -1,0 +1,28 @@
+{
+  "source": "DENTEX (Zenodo 7812323), carpeta quadrant-enumeration-disease",
+  "json": "train_quadrant_enumeration_disease.json",
+  "bbox_format_detected": "xywh",
+  "classes": [
+    "periapical_lesion",
+    "impacted_tooth"
+  ],
+  "seed": 42,
+  "ratios": [
+    0.7,
+    0.15,
+    0.15
+  ],
+  "include_negatives": true,
+  "stratification": "combinacion de clases por imagen",
+  "n_images": {
+    "train": 493,
+    "val": 106,
+    "test": 106
+  },
+  "sha256_split_lists": {
+    "train": "5c2f945aea48c55fa4db3a14d1e6e5053598ba5ded4587c0200c02334dbe3d36",
+    "val": "d79395131d954e0879e73ba3dfb06f4b33ae582febe20154591d579c31f9446c",
+    "test": "9a8f58210b497e25b9198e6070890c2a9292f2e86ea3635645eb54a585f499a1"
+  },
+  "same_split_for_models": true
+}
