@@ -4,7 +4,7 @@ Comparación controlada de **YOLO11n** y **YOLO26n** para detectar **lesiones pe
 
 Artículo asociado: *Sistema basado en deep learning para la detección de patologías dentales en radiografías panorámicas: evaluación comparativa de YOLO11n y YOLO26n* (en revisión).
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23251984.svg)](https://doi.org/10.5281/zenodo.23251984)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23251984.svg)](https://doi.org/10.5281/zenodo.23255413) 
 [![Abrir prototipo en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/comcli26/dentex-yolo11n-vs-yolo26n/blob/main/notebooks/04_prototipo_inferencia.ipynb)
 
 > ⚠️ **Prototipo de investigación.** Mide la concordancia algorítmica con las anotaciones del conjunto DENTEX. **No es un dispositivo médico ni una herramienta de diagnóstico clínico.**
