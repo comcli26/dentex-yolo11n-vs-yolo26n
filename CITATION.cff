@@ -20,5 +20,5 @@ authors:
     given-names: "Jennifer Katherin"
     orcid: "https://orcid.org/0000-0001-7041-8777"
 license: AGPL-3.0
-repository-code: "https://github.com/<USUARIO>/dentex-yolo11n-vs-yolo26n"
+repository-code: "https://github.com/comcli26/dentex-yolo11n-vs-yolo26n"
 keywords: [deep learning, panoramic radiography, object detection, periapical lesion, impacted tooth, YOLO11, YOLO26]
