@@ -83,12 +83,9 @@ Colores: rojo = lesión periapical; verde = diente impactado; amarillo discontin
 ## Verificación de que ambos modelos usan la misma partición y los mismos pesos
 
 - `data/metadata/split_evidence.json` y `results/evidence/evidencia_comparacion.json`: SHA-256 de `data.yaml`, de las listas de partición, del protocolo y de los pesos.
-- Los pesos se pueden comprobar con:
+- Los SHA-256 de los pesos están en `results/evidence/evidencia_comparacion.json` (campo `best_pt_sha256`).
+  Para comprobarlos: `sha256sum models/*.pt` (Linux o Colab) o `Get-FileHash models\*.pt -Algorithm SHA256` (PowerShell) y comparar los valores.
 
-```bash
-cd models
-sha256sum -c SHA256SUMS.txt
-```
 
 ## Datos y licencias
 
