@@ -1,0 +1,55 @@
+{
+  "title": "dentex-yolo11n-vs-yolo26n: comparación controlada de YOLO11n y YOLO26n para detectar lesiones periapicales y dientes impactados en radiografías panorámicas (DENTEX)",
+  "upload_type": "software",
+  "description": "<p>Cuadernos de Google Colab, particiones, etiquetas derivadas en formato YOLO, pesos finales, tablas, figuras y prototipo de inferencia de un estudio que compara, bajo condiciones experimentales idénticas, los detectores YOLO11n y YOLO26n para localizar lesiones periapicales y dientes impactados en radiografías panorámicas del conjunto público DENTEX.</p><p>Las radiografías originales no se redistribuyen; deben descargarse de Zenodo (doi:10.5281/zenodo.7812323). Es un prototipo de investigación que mide concordancia algorítmica con las anotaciones del conjunto y no constituye una herramienta de diagnóstico clínico.</p>",
+  "creators": [
+    {
+      "name": "Muñoz Vélez, Gustavo Enrique",
+      "affiliation": "Universidad Técnica de Machala, Ecuador",
+      "orcid": "0009-0004-0316-3005"
+    },
+    {
+      "name": "Jimbo Ortiz, Jordy German",
+      "affiliation": "Universidad Técnica de Machala, Ecuador",
+      "orcid": "0009-0008-1959-1839"
+    },
+    {
+      "name": "Rivas Asanza, Wilmer Braulio",
+      "affiliation": "Universidad Técnica de Machala, Ecuador",
+      "orcid": "0000-0002-2239-3664"
+    },
+    {
+      "name": "Tusa Jumbo, Eduardo Alejandro",
+      "affiliation": "Universidad Técnica de Machala, Ecuador",
+      "orcid": "0000-0002-9408-5134"
+    },
+    {
+      "name": "Celleri Pacheco, Jennifer Katherin",
+      "affiliation": "Universidad Técnica de Machala, Ecuador; Grupo de Investigación en Discurso, Comunicación y Web (GIDCOWEB)",
+      "orcid": "0000-0001-7041-8777"
+    }
+  ],
+  "keywords": [
+    "deep learning",
+    "panoramic radiography",
+    "object detection",
+    "periapical lesion",
+    "impacted tooth",
+    "YOLO11",
+    "YOLO26",
+    "DENTEX"
+  ],
+  "license": "agpl-3.0-only",
+  "access_right": "open",
+  "language": "spa",
+  "version": "1.0.1",
+  "related_identifiers": [
+    {
+      "identifier": "10.5281/zenodo.7812323",
+      "relation": "isDerivedFrom",
+      "scheme": "doi",
+      "resource_type": "dataset"
+    }
+  ],
+  "notes": "Requiere Ultralytics 8.4.118. Entrenamiento y evaluación en Google Colab con GPU Tesla T4."
+}
