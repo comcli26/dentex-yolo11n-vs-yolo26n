@@ -47,7 +47,7 @@ Ninguna diferencia global en mAP, recall ni F1 es concluyente (el IC de la difer
 │   ├── 03_evaluacion_conjunta.ipynb          # métricas con IC, matriz de confusión, tiempos, complejidad
 │   └── 04_prototipo_inferencia.ipynb         # prototipo del sistema
 ├── data/                                     # data.yaml, listas de partición, etiquetas derivadas, metadatos (ver data/README_data.md)
-├── models/                                   # pesos finales (.pt) y SHA256SUMS.txt
+├── models/                                   # pesos finales (.pt)
 └── results/
     ├── training/                             # curvas, results.csv, evaluaciones de cada entrenamiento
     ├── tables/                               # tablas CSV
