@@ -1,8 +1,8 @@
 cff-version: 1.2.0
 message: "Si usa este material, cítelo como se indica a continuación."
 title: "dentex-yolo11n-vs-yolo26n"
-version: 1.0.0
-date-released: 2026-10-XX
+version: 1.0.1
+date-released: 2026-10-09
 authors:
   - family-names: "Muñoz Vélez"
     given-names: "Gustavo Enrique"
